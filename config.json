@@ -1,0 +1,158 @@
+{
+    "RegisterSystems": [
+        {
+            "SystemName": "WeaveDashboard",
+            "SystemUrl": "http://192.168.10.28:3000",
+            "SystemDescription": "Weave Dashboard",
+            "ClientId": "WeaveDashboardClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "1",
+            "SystemName": "UMS",
+            "SystemSecret": "964447d81e61837304d27215de1cfbaf",
+            "SystemUrl": "http://192.168.10.28:3001",
+            "ApiUrl": "http://192.168.10.28:4001/",
+            "IsSupportingModule": "true",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-ums-logo.png",
+            "SystemDescription": "User Management System",
+            "SortOrder": "",
+            "ClientId": "UMSClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "2",
+            "SystemName": "WARP",
+            "SystemSecret": "46be0401cc118010001a67b2576fefe6",
+            "SystemUrl": "http://192.168.10.28:3002",
+            "ApiUrl": "http://192.168.10.28:4002/",
+            "IsSupportingModule": "false",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-warp-logo.png",
+            "SystemDescription": "A/V Candidate Testing Environment",
+            "SortOrder": "4",
+            "ClientId": "DictoClient",
+            "JuteUserId": "10018",
+            "LiveBraidApi": "https://enroll.canscribe.com:1001/api",
+            "Scope": "usermanagementapi openid",
+            "TranscriptionSaveTime": "50000",
+            "GradingSaveTime": "50000"
+        },
+		{
+            "Id": "3",
+            "SystemName": "Campaign Builder",
+            "SystemSecret": "834cb54b61bbed9d4296c995e4c5d8b2",
+            "ApiUrl": "http://192.168.10.28:4003/",
+            "IsSupportingModule": "true",
+            "SystemDescription": "Campaign Builder",
+            "Scope": "usermanagementapi openid"
+        },	
+        {
+            "Id": "4",
+            "SystemName": "Question Repository",
+            "SystemSecret": "66c35cd8077f7e1db5faefbc048a646a",
+            "SystemUrl": "http://192.168.10.28:3004",
+            "ApiUrl": "http://192.168.10.28:4004/",
+            "IsSupportingModule": "true",
+            "LogoUrl": "",
+            "SystemDescription": "QR",
+            "SortOrder": "",
+            "ClientId": "QRAndEBClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "5",
+            "SystemName": "Exam Builder",
+            "SystemSecret": "345e675f845309645d417f3544d9fa5a",
+            "SystemUrl": "http://192.168.10.28:3005",
+            "ApiUrl": "http://192.168.10.28:4005/",
+            "IsSupportingModule": "true",
+            "SystemDescription": "EB"
+        },
+        {
+            "Id": "6",
+            "SystemName": "JUTE",
+            "SystemSecret": "ac15cf8ef655ad5fef203f23e5dedcf8",
+            "SystemUrl": "http://localhost:3006",
+            "ApiUrl": "http://192.168.10.28:4006/",
+            "IsSupportingModule": "false",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-jute-logo.png",
+            "SystemDescription": "Online Testing Environment",
+            "SortOrder": "5",
+            "ClientId": "JuteClient",
+            "Scope": "usermanagementapi openid",
+            "scheme": "https",
+            "host": "enroll.canscribe.com",
+            "port": "443"
+        },
+        {
+            "Id": "7",
+            "SystemName": "Exam Builder",
+            "SystemSecret": "66a8f2813dac128f9d3d9abeaaae607b",
+            "SystemUrl": "http://192.168.10.28:3007",
+            "ApiUrl": "http://192.168.10.28:4007/",
+            "IsSupportingModule": "false",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-lms-logo.png",
+            "SystemDescription": "EB",
+            "SortOrder": "2",
+            "ClientId": "LMSClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "8",
+            "SystemName": "BRAID",
+            "SystemSecret": "13d1d6713eaca3435f72f48e98ce92fd",
+            "SystemUrl": "http://localhost:3008",
+            "ApiUrl": "http://192.168.10.28:4008/",
+            "IsSupportingModule": "false",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-braid-logo.png",
+            "SystemDescription": "Client Services Center",
+            "SortOrder": "3",
+            "ClientId": "BraidAdminClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "9",
+            "SystemName": "PLAIT",
+            "SystemSecret": "000d9247d1bb23572f233e2c8dc185d9",
+            "SystemUrl": "http://localhost:3009",
+            "ApiUrl": "http://192.168.10.28:4009/",
+            "IsSupportingModule": "false",
+            "LogoUrl": "http://192.168.10.28:4015/UploadFilePath/WeaveFiles/WeaveLogos/weave-plait-logo.png",
+            "SystemDescription": "Customer Records Management",
+            "SortOrder": "1",
+            "ClientId": "PlaitClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "10",
+            "SystemName": "WTMS",
+            "SystemSecret": "30781f1fc2f9342ceb1ad2f6f35a51db",
+            "SystemUrl": "http://localhost:3010",
+            "ApiUrl": "http://localhost:4010/",
+            "IsSupportingModule": "true",
+            "LogoUrl": "",
+            "SystemDescription": "WTMS",
+            "SortOrder": "",
+            "ClientId": "FormBuilderClient",
+            "Scope": "usermanagementapi openid"
+        },
+        {
+            "Id": "15",
+            "SystemName": "FMS",
+            "ApiUrl": "http://localhost:4015/"
+        }
+    ],
+    "IdentityServerConfiguration": {
+        "ApiUrl": "http://localhost:4000"
+    },
+    "BrightSpaceConfiguration": {
+        "scheme": "https",
+        "host": "www.elearn.training",
+        "port": "443",
+        "appId": "-0ru8ppfuehMvICMqbFg-w",
+        "appKey": " GgVQWQD-shdJzgcdGUYMpg",
+        "admin_x_a": "mRuuGRNx29weah80OBje6M",
+        "admin_x_b": "jiKgHMernJAIzGb8SJGpDP",
+        "DeploymentMode": "0"
+    }
+}
